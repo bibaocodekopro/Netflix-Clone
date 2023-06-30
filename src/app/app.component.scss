@@ -1,24 +1,40 @@
 nav {
+       z-index: 100;
+       background-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+
        div {
               .img_logo_netflix {
-                     width: 130px;
-                     height: 60px;
+                     width: 110px;
+                     height: 50px;
               }
 
               .btn-search {
-                     font-size: 23px;
-                     font-weight: 300;
-                     color: rgb(165, 162, 162);
+                     font-size: 25px;
+                     padding-right: 10px;
+                     font-weight: 250;
+                     color: rgb(255, 255, 255);
               }
 
               .nav-item {
-                     font-weight: 400;
+                     font-weight: 300;
                      font-size: 18px
               }
 
               a:hover {
                      color: red
               }
+
+              button {
+                     border-color: azure;
+              }
+
+              button:focus,
+              button:hover {
+                     background-color: gray;
+              }
+
+
+
 
               span {
                      color: white;
@@ -28,10 +44,8 @@ nav {
                      color: white;
               }
 
-              input {
-                     background-color: #070606;
-                     color: white;
-                     border-color: rgb(165, 162, 162);
+              i:hover {
+                     color: red
               }
 
        }
